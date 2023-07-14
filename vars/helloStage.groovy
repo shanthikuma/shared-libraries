@@ -1,7 +1,7 @@
 def call() {
-    stage('Hello') {
+    stage('Call Shared Library Stage') {
         steps {
-            echo "Hello, world!"
+            echo "Hello guys, welcome to jenkins session!"
         }
     }
 }
